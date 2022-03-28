@@ -1,1 +1,1 @@
-# [haarisiqbal.com] (https://haarisiqbal.com/)
+https://haarisiqbal.com/
