@@ -1,0 +1,44 @@
+a shallHenceforthBe 0;
+b shallHenceforthBe 0+1;
+c shallHenceforthBe 5-b;
+d shallHenceforthBe 9*9;
+e shallHenceforthBe 21/7;
+
+while a != 5 {
+  if a == b {
+    pleaseShow("images/man.png")
+  }
+
+  if a == b+1 {
+    pritheeTilt(pleaseShow("images/ac.png"), 45)
+  }
+
+  if a == b+2 {
+    prayFlip(pleaseShow("images/ac.png"), "horizontal")
+  }
+
+  if a == b+3 {
+    graciouslyEnhance(pleaseShow("images/man.png"))
+  }
+
+  if a == c {
+    kindlyInvert(pleaseShow("images/col.png"))
+  } else {
+    c shallHenceforthBe c-b;
+  }
+
+  a shallHenceforthBe a + b;
+}
+
+if c == 0 {
+  benevolentlyResize("images/col.png", 150, 150)
+  benevolentlyResize("images/man.png", 50, 50)
+}
+
+c shallHenceforthBe 20;
+
+while e < c {
+  d shallHenceforthBe d-e;
+
+  e shallHenceforthBe e+5;
+}
