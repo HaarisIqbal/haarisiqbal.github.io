@@ -819,28 +819,31 @@
                                 </li>
                                 <li>
                                     <span class="fa-li"><i class="fas fa-angle-right"></i></span>
-                                    Designing an external syntax for PLIP.
+                                    Designing a language specification and an external syntax for PLIP.
                                 </li>
                                 <li>
                                     <span class="fa-li"><i class="fas fa-angle-right"></i></span>
                                     Writing ART BNF grammar for PLIP, with the use of GIFT operators to parse programs written 
-                                    in PLIP's external syntax (this is the first external-to-internal translator).
+                                    in PLIP's external syntax (effectively an external-to-internal translator).
                                 </li>
                                 <li>
                                     <span class="fa-li"><i class="fas fa-angle-right"></i></span>
-                                    Writing ART elided-SOS rules that implements an interpreter for PLIP (conforming to PLIP specifications).
+                                    Writing ART elided-SOS rules that implements an interpreter for PLIP (conforming to PLIP's specifications).
                                 </li>
                                 <li>
                                     <span class="fa-li"><i class="fas fa-angle-right"></i></span>
                                     Writing ART BNF grammar for PLIP, to form the basis of an attribute grammar interpreter 
-                                    (that conforms to PLIP's specifications) and decorating the attribute grammar interpreter 
-                                    with actions written in Java to implement the interpreter (this is the second external-to-internal translator).
+                                    (conforming to PLIP's specifications) and decorating the attribute grammar interpreter 
+                                    with actions written in Java (JavaFX) to implement the interpreter.
                                 </li>
                             </ul>
                             <p>
-                                The outcome of this work is that PLIP is able to perform full arithmetic (BODMAS), 
-                                while featuring standard commands (such as 'if' and 'while' statements), and 
-                                it can load and manipulate 2D images (flipping, rotating, contrasting, etc).
+                                The theme for the external syntax is an over-the-top "polite" articulation, which is 
+                                why this programming language has been named "PLIP".
+                            </p>
+                            <p>
+                                PLIP is able to perform full arithmetic (BODMAS), while featuring standard commands (such as 'if' 
+                                and 'while' statements), and it can load and manipulate 2D images (flipping, rotating, contrasting, etc).
                             </p>
                             <p>
                                 Further details on PLIP can be found in the following:
@@ -856,8 +859,8 @@
                                 </li>
                                 <li>
                                     <span class="fa-li"><i class="fas fa-angle-right"></i></span>
-                                    A real PLIP program (ps4.str) to show off syntax, which can be viewed <a href="assets/programs/ps4.str" target="_blank">here</a>. 
-                                    Note that the PLIP programming language is needed to run this program. 
+                                    A real PLIP program to show off syntax, which can be viewed <a href="assets/programs/ps4.txt" target="_blank">here</a>. 
+                                    Note that PLIP's interpreter is needed to run this program. 
                                 </li>
                             </ul>
                         </div>
